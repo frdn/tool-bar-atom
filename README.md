@@ -10,17 +10,13 @@ A trimmed tool-bar plugin fitted for markdown writing & atom-notes.
 
 Available toolbar buttons:
 
-* **open atom noe**
+* **toggle atom notes** (requires `atom-notes` package)
 * **save file**
-* -
 * **toggle fullscreen**
 * **toggle tree-view**
-* -
 * **settings**
-* -
-* **markdown preview**
-* **insert link**
-* -
+* **markdown preview** (requires `markdown-preview-plus` package)
+* **insert link** (requires `markdown-helper` package)
 
 **Note**: The toolbar buttons that require other packages will only appear if you have those packages installed
 
