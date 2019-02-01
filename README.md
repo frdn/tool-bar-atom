@@ -16,10 +16,11 @@ Available toolbar buttons:
 * **toggle fullscreen**
 * **toggle tree-view**
 * -
-* **markdown preview**
-* **HTML preview**
-* -
 * **settings**
+* -
+* **markdown preview**
+* **insert link**
+* -
 
 **Note**: The toolbar buttons that require other packages will only appear if you have those packages installed
 
