@@ -1,4 +1,4 @@
-# Toolbar for Atom - a tool-bar plugin
+# Markdown plugin for Atom tool-bar
 
 ## Description
 
