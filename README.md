@@ -14,6 +14,7 @@ Available toolbar buttons:
 * **save file**
 * **toggle fullscreen**
 * **toggle tree-view**
+* **toggle dark/light mode** (requires `dark-mode` package)
 * **settings**
 * **markdown preview** (requires `markdown-preview-plus` package)
 * **insert link** (requires `markdown-helper` package)
