@@ -32,7 +32,7 @@ First you have to install the `tool-bar` package which is required:
 apm install tool-bar
 ```
 
-Then you install the `tool-bar-atom` package:
+Then you install the `tool-bar-markdown` package:
 
 ```bash
 apm install tool-bar-markdown
