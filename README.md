@@ -6,7 +6,7 @@ A trimmed tool-bar plugin fitted for markdown writing & atom-notes.
 
 ## Preview
 
-![Screenshot](https://github.com/jeselxe/tool-bar-atom/raw/master/screenshot.png)
+![Screenshot](https://github.com/frdn/tool-bar-markdown/raw/master/screenshot.png)
 
 Available toolbar buttons:
 
