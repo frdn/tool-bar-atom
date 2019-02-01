@@ -2,7 +2,7 @@
 
 ## Description
 
-A stripped atom-tool-bar plugin fitted for markdown writing & note-taking.
+A trimmed tool-bar plugin fitted for markdown writing & atom-notes.
 
 ## Preview
 
