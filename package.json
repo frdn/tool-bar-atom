@@ -13,7 +13,10 @@
   },
   "keywords": [
     "toolbar",
-    "tool-bar"
+    "tool-bar",
+    "atom-noes",
+    "dark-mode",
+    "markdown"
   ],
   "dependencies": {},
   "packageDependencies": {
