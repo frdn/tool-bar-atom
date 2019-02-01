@@ -5,7 +5,7 @@
   "description": "A stripped atom-tool-bar plugin fitted for markdown writing & note-taking.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frdn/tool-bar-markdown.git"
+    "url": "git+https://github.com/janebuoy/tool-bar-markdown.git"
   },
   "license": "MIT",
   "engines": {
