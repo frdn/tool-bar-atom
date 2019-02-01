@@ -61,6 +61,12 @@ module.exports =
         'callback': 'markdown-preview-plus:toggle'
         'tooltip': 'Markdown Preview'
 
+    if atom.packages.loadedPackages['markdown-preview-enhanced']
+      @toolBar.addButton
+        'icon': 'markdown'
+        'callback': 'markdown-preview-enhanced:toggle'
+        'tooltip': 'Markdown Preview'
+
     if atom.packages.loadedPackages['markdown-helper']
       @toolBar.addButton
         'icon': 'link'
