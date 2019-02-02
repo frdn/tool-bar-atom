@@ -41,7 +41,7 @@ module.exports =
 
     @toolBar.addSpacer()
 
-    if atom.packages.loadedPackages['beautify']
+    if atom.packages.loadedPackages['atom-beautify']
       @toolBar.addButton
       'icon': 'flower-daffodil'
       'iconset': 'fa'
