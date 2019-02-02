@@ -41,15 +41,6 @@ module.exports =
 
     @toolBar.addSpacer()
 
-    if atom.packages.loadedPackages['atom-beautify']
-      @toolBar.addButton
-      'icon': 'flower-daffodil'
-      'iconset': 'fa'
-      'callback': 'atom-beautify:beautify-editor'
-      'tooltip': 'Beautify'
-
-    @toolBar.addSpacer()
-
     @toolBar.addButton
       'icon': 'bars'
       'callback': 'command-palette:toggle'
