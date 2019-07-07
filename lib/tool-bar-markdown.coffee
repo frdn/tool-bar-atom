@@ -67,15 +67,18 @@ module.exports =
         'callback': 'markdown-preview-enhanced:toggle'
         'tooltip': 'Markdown Preview'
 
+    @toolBar.addSpacer()
+
     if atom.packages.loadedPackages['markdown-writer']
       @toolBar.addButton
         'icon': 'link'
         'iconset': 'ion'
         'callback': 'markdown-writer:insert-link'
         'tooltip': 'Insert Link'
+
     if atom.packages.loadedPackages['markdown-helper']
       @toolBar.addButton
         'icon': 'link'
         'iconset': 'ion'
         'callback': 'markdown-helper:insert-link'
-        'tooltip': 'Insert Link'
+        'tooltip': 'Insert Reference Link'
