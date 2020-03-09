@@ -55,13 +55,27 @@ module.exports =
 
     @toolBar.addSpacer()
 
+    if atom.packages.loadedPackages['vk-terminal']
+      @toolBar.addButton
+        'icon': 'terminal'
+        'iconset': 'fa'
+        'callback': 'vk-terminal:toggle'
+        'tooltip': 'Open Terminal'
+
+    else if atom.packages.loadedPackages['terminal-plus']
+      @toolBar.addButton
+        'icon': 'terminal'
+        'iconset': 'fa'
+        'callback': 'vk-terminal:toggle'
+        'tooltip': 'Open Terminal'
+
     if atom.packages.loadedPackages['markdown-preview-plus']
       @toolBar.addButton
         'icon': 'markdown'
         'callback': 'markdown-preview-plus:toggle'
         'tooltip': 'Markdown Preview'
 
-    if atom.packages.loadedPackages['markdown-preview-enhanced']
+    else if atom.packages.loadedPackages['markdown-preview-enhanced']
       @toolBar.addButton
         'icon': 'markdown'
         'callback': 'markdown-preview-enhanced:toggle'
