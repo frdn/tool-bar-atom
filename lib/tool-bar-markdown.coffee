@@ -55,18 +55,11 @@ module.exports =
 
     @toolBar.addSpacer()
 
-    if atom.packages.loadedPackages['vk-terminal']
+    if atom.packages.loadedPackages['platformio-ide-terminal']
       @toolBar.addButton
         'icon': 'terminal'
         'iconset': 'fa'
-        'callback': 'vk-terminal:toggle'
-        'tooltip': 'Open Terminal'
-
-    else if atom.packages.loadedPackages['terminal-plus']
-      @toolBar.addButton
-        'icon': 'terminal'
-        'iconset': 'fa'
-        'callback': 'terminal-plus:toggle'
+        'callback': 'platformio-ide-terminal:toggle'
         'tooltip': 'Open Terminal'
 
     if atom.packages.loadedPackages['markdown-preview-plus']
