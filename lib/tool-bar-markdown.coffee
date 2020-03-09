@@ -66,7 +66,7 @@ module.exports =
       @toolBar.addButton
         'icon': 'terminal'
         'iconset': 'fa'
-        'callback': 'vk-terminal:toggle'
+        'callback': 'terminal-plus:toggle'
         'tooltip': 'Open Terminal'
 
     if atom.packages.loadedPackages['markdown-preview-plus']
