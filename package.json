@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-markdown",
   "main": "./lib/tool-bar-markdown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A stripped atom-tool-bar plugin fitted for markdown writing & note-taking.",
   "repository": {
     "type": "git",
